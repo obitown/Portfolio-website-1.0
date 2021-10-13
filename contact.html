@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Contact</title>
+        <link rel="shortcut icon" href="img/favicon.ico"><!--Replace favicon with logo.ico-->
+        <link rel='stylesheet' type='text/css' href='css/normalize.css'>
+        <link rel ='stylesheet' type='text/css' href='https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&family=Roboto&display=swap'>
+        <link rel='stylesheet' type='text/css' href='css/styles.production.css'>
+    </head>
+    <body>
+        <header class='page_header'>
+            <img src='https://via.placeholder.com/200x70'alt='Logo'class='page_header-item'><!--Replace placeholder with logo-->
+                <nav class='main_navigation page_header-item'>
+                    <ul role='menubar'class='navigation-list'>
+                        <li role='presentation'>
+                            <a href='index.html' role='menuitem'class='navigation-list_item'>Home</a>
+                        </li>
+                        <li role='presentation'>
+                            <a href='work.html' role='menuitem'class='navigation-list_item'>Projects</a>
+                        </li>
+                        <li role='presentation'>
+                            <a href='about.html' role='menuitem'class='navigation-list_item'>About Me</a>
+                        </li>
+                        <li role='presentation'>
+                            <a href='contact.html'target='_blank' role='menuitem'class='navigation-list_item-active'>Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <main>
+            <nav>
+                <form action='contact_form' method='submit' id='contact-form'>
+                    <label class='standard-label' for='email'>E-mail: </label>
+                    <input type='email' id='email' required>
+        
+                    <label class='standard-label' for='tel'>Telephone: </label>
+                    <input type='tel' pattern='\d{3}[\-]\d{3}[\-]\d{4}' id='tel'>
+        
+                    <label class='standard-label' for='message'>Message: </label>
+                    <textarea maxlength='240' required id='message'></textarea>
+                    
+                    <input class='button_submit' type='submit' value='Send message'>
+                </form>
+            </nav>
+            <nav>
+                <h1>Contact</h1>
+                5555 W Jackson St<br>
+                Peoria AZ 85345<br>
+                <br>
+                Phone : <a href='tel:5555555555' aria-label='Call Phone (555) 555-5555'>(555) 555-5555</a><br>
+                Skype: <a href='skype:blank.blank'>blank.blank</a><br> <!--Update with real info-->
+                Email: <a href='mailto:test@gmail.com'>test@gmail.com</a><br>
+                <br>
+                <a href='mailto:test@gmail.com'>Contact Me!</a>
+            </nav>
+        </main>
+        <footer class='page_footer'>
+            <h4>Find me on</h4>
+            <div class='social_media'>
+                <a href='https://github.com/' target='_blank'>
+                <img id='img_link'src='img/github_icon.svg' alt='Github'></a>
+                <a href='https://twitter.com/' target='_blank'>
+                <img id='img_link'src='img/twitter_icon.svg' alt='Twitter'></a>
+                <a href='https://linkedin.com/' target='_blank'>
+                <img id='img_link' src='img/linkedin_icon.svg' alt='LinkedIn'></a>
+            </div>
+        </footer>
+    </body>
+    <script src='js/tota11y.min.js'></script>
+</html>
