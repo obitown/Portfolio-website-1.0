@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-
+ 
 body {
     background-color: #fff8bd;
     font-family: 'Playfair Display', sans-serif;
@@ -117,7 +117,7 @@ button {
     -o-transition: 0.9s opacity;
     transition: 0.9s opacity;
   }
-button:hover, button:focus, .button:hover, .button:focus, .button_submit:hover, #img_link:hover, #img_link:focus{
+button:hover, button:focus, .button:hover, .button:focus, .button_submit:hover, .img_link:hover, .img_link:focus{
     /* lets the mouse appear as a hand when hovering over the button */
     cursor:pointer;
     /* reduces the opacity of the button to 80% */
